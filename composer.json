@@ -1,0 +1,45 @@
+{
+    "name": "themccallister/artsy",
+    "description": "The testing framework for Craft CMS.",
+    "keywords": ["craft", "craftcms", "testing"],
+    "license": "MIT",
+    "homepage": "https://mccallister.io/artsy",
+    "support": {
+        "issues": "https://github.com/themccallister/artsy/issues",
+        "source": "https://github.com/themccallister/artsy"
+    },
+    "authors": [
+        {
+            "name": "Jason McCallister",
+            "email": "themccallister@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "paragonie/random_compat": "~1.1",
+        "phake/phake": "@stable",
+        "phpunit/phpunit": "~5.2",
+        "psy/psysh": "0.7.*",
+        "symfony/css-selector": "2.7.*",
+        "symfony/debug": "2.7.*",
+        "symfony/dom-crawler": "2.7.*",
+        "symfony/finder": "2.7.*",
+        "symfony/http-foundation": "2.7.*",
+        "symfony/http-kernel": "2.7.*",
+        "symfony/process": "2.7.*",
+        "symfony/routing": "2.7.*",
+        "symfony/translation": "2.7.*",
+        "symfony/var-dumper": "2.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artsy\\": "src/Artsy/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
