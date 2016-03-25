@@ -1,6 +1,7 @@
 <?php
+
 namespace Artsy;
 
-abstract class Craft extends \PHPUnit_Framework_Assert {
-  
+abstract class Craft extends \PHPUnit_Framework_Assert
+{
 }

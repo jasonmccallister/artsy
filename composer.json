@@ -11,7 +11,8 @@
     "authors": [
         {
             "name": "Jason McCallister",
-            "email": "themccallister@gmail.com"
+            "email": "themccallister@gmail.com",
+            "homepage": "https://mccallister.io"
         }
     ],
     "require": {
@@ -34,6 +35,11 @@
     "autoload": {
         "psr-4": {
             "Artsy\\": "src/Artsy/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Artsy\\Test\\": "tests"
         }
     },
     "extra": {
